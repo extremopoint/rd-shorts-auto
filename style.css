@@ -1,0 +1,33 @@
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Arial;
+  margin:0;
+  padding:20px;
+}
+.app{
+  max-width:420px;
+  margin:auto;
+}
+input, textarea, button{
+  width:100%;
+  margin-top:12px;
+  padding:14px;
+  border:none;
+  border-radius:14px;
+  font-size:16px;
+}
+button{
+  background:#2563eb;
+  color:white;
+  font-weight:bold;
+}
+.pub{
+  background:#dc2626;
+}
+canvas{
+  width:100%;
+  margin-top:12px;
+  border-radius:14px;
+  background:#111827;
+}
