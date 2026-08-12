@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RD Shorts Auto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>🎬 RD Shorts Auto</h1>
+
+    <input type="text" id="url" placeholder="Cole o link do vídeo autorizado">
+
+    <button onclick="gerar()">✨ Gerar título e descrição</button>
+
+    <input type="text" id="titulo" placeholder="Título">
+
+    <textarea id="descricao" rows="6" placeholder="Descrição"></textarea>
+
+    <button onclick="thumbnail()">🖼️ Gerar capa</button>
+
+    <canvas id="thumb" width="1280" height="720"></canvas>
+
+    <button onclick="salvar()">💾 Salvar</button>
+
+    <button class="pub" onclick="publicar()">🚀 Publicar no YouTube</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
